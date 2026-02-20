@@ -110,7 +110,7 @@ after seeing val loss climb while train loss dropped, we applied four fixes toge
 ---
 
 ### Early Stopping
-we added patience-based early stopping (patience = 10 epochs). if val loss doesn't improve for 10 epochs in a row, training stops automatically and the best model is kept. this prevents wasting time and avoids the model degrading after its best point.
+we added patience-based early stopping (patience = 5 epochs). if val loss doesn't improve for 10 epochs in a row, training stops automatically and the best model is kept. this prevents wasting time and avoids the model degrading after its best point.
 
 ---
 
